@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sassenach Cosplays</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Sassenach Cosplays</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="quienes-somos.html">Quienes Somos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contacto">
+        <h2>Contáctenos</h2>
+        <div class="info-contacto">
+          <p>Dirección: Puerto, Mar del Plata</p>
+          <p>Email: contacto@sassenach.cosplays.com</p>
+          <p>Teléfono: +54 223 1234-567</p>
+          <p>Horario de atención: Lunes a viernes, de 10 a 17 hs</p>
+        </div>
+        <div class="formulario-presupuesto">
+          <h3>Formulario para presupuesto</h3>
+          <form action="sassenach-presupuesto.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" required></textarea>
+            <label for="imagen">Subir imagen:</label>
+            <input type="file" name="imagen" accept="image/*">
+            <button type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; SassenachCos 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
